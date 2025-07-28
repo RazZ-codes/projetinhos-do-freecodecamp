@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+   <h1 id="title">Pesquisa</h1> 
+   <p id="description">aleatorio</p>
+        <form id="survey-form">
+
+<label id="name-label" for="name">Name:</label> 
+    <input id="name" type="text" name="name" required placeholder="your name">
+
+<label id="email-label" for="email">Email</label>
+    <input id="email" name="email" type="email" required placeholder="email">
+    
+<label id="number-label" for="number">Number</label>
+    <input id="number" type="number" name="number" min="10" max="99" placeholder="AGE">
+
+
+                <label for="dropdown"></label>
+                <select name="area" id="dropdown">
+                 <option value="Seilakj"></option>
+                    <option value="kkkkkk"></option>
+                </select>
+    <p>test</p> 
+    <input type="radio" id="3x" name="frequency" value="3x">
+    <label for="3x">3 times</label>
+    
+    <input type="radio" id="5x" value="5x" name="frequency">
+    <label for="5x">5 times</label>
+
+    <p>test 2</p>
+    <input type="checkbox" id="a" name="meta" value="a">
+    <label for="a">A</label>          
+    <input type="checkbox" id="b" name="meta" value="b">
+    <label for="B"></label>
+
+    <label for="comments">desc</label><br>
+<textarea id="comments" name="comments" rows="4" cols="30"> </textarea> 
+
+<button id="submit" type="submit">send</button>
+</form>
+</body>
+</html>
